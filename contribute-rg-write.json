@@ -1,0 +1,21 @@
+{
+    "Name":  "Resource Group Write Access",
+    "IsCustom":  true,
+    "Description":  "Can create resource groups.",
+    "Actions":  [
+                    "Microsoft.Resources/*/write",
+                    "Microsoft.Resources/subscriptions/resourceGroups/write"
+    ],
+    "NotActions":  [
+  
+                   ],
+    "DataActions":  [
+  
+                    ],
+    "NotDataActions":  [
+  
+                       ],
+    "AssignableScopes":  [
+                             "/subscriptions/<your azure subscription id here>"
+                         ]
+  }
