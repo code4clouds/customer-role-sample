@@ -41,3 +41,6 @@ az role definition create --role-definition ./contribute-rg-write.json
   "type": "Microsoft.Authorization/roleDefinitions"
 }
 ```
+
+## References
+- https://docs.microsoft.com/en-us/azure/role-based-access-control/tutorial-custom-role-cli
